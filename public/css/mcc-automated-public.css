@@ -1,0 +1,121 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .mcc-auto-hide{
+    display: none;
+}
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+.mcc-auto-title_bill h3{color:#000;font-size:30px;font-weight:500;margin-top:10px;margin-left:20px}
+
+.mcc-auto-title_bill h3 span{font-weight:bold;}
+
+.mcc-auto-title-heading{font-size:20px;font-weight:500;background: #f8f8f8;padding: 18px;width:100%}
+
+.mcc-auto-cl6{flex: 0 0 50%;margin-top:37px;max-width: 44%;}
+
+.mcc-auto-bill-form{margin-top:40px;}
+
+.mcc-auto-bill-form label{color:#000;font-size:18px;font-weight: 500;}
+
+.mcc-auto-formrow{
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -5px;
+   margin-left: -5px;
+   padding: 0px 60px;
+}
+.mcc-auto-formrow>[class*="col-"] {
+   padding-right: 5px;
+   padding-left: 5px;
+}
+.mcc-auto-formcntrl{
+   display: block;
+   width: 100%;
+   height: 38px;
+   font-size: 20px;
+   font-weight: 400;
+   color: #495057;
+   margin-top:15px;
+}
+
+.mcc-auto-cl12{width:88%}
+
+.mcc-auto-input-select .formcntrl{padding: 15px 20px 5px 5px;height: 60px;}
+
+.mcc-auto-inputmrgin{border-top: 1px solid #c5ced6;margin-top: 40px;padding-top: 40px;}
+
+.mcc-auto-dropzone-section{width: 100%;margin: 60px 5px;}
+
+.mcc-auto-submit-btn button{background:#6558f5;color:#fff;text-align:center}
+
+.mcc-auto-btn {
+   display: inline-block;
+   margin-bottom: 0;
+   font-weight: 400;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   -ms-touch-action: manipulation;
+   touch-action: manipulation;
+   cursor: pointer;
+   background-image: none;
+   border: 1px solid transparent;
+   padding: 6px 12px;
+   font-size: 14px;
+   line-height: 1.42857143;
+   border-radius: 4px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.mcc-auto-submit-btn-sec{width: 100%;
+   padding: 3px;}
+
+.submit-btn.mcc-auto-btn {
+   background: #6558f5;
+   color: #fff;
+   text-align: center;
+   width: 100%;
+   padding: 10px 17px 10px 4px;
+   font-size: 20px;
+   border-radius: 0px;
+}
+
+.mcc-auto-btn.updtebtn {
+   float: right;
+   color: #fff;
+   background: #6558f5;
+   width: 230px;
+   text-align: center;
+   padding: 10px;
+   border-radius: 0;
+   font-size: 15px;
+}
+.mcc-auto-btnbtn.showpln {
+   background: #6558f5;
+   color: #fff;
+   text-align: center;
+   width: 100%;
+   padding: 10px 17px 10px 4px;
+   font-size: 20px;
+   border-radius: 0px;
+   margin: 40px 0px;
+}
+
+.mcc-auto-loader-img {
+   width: 20px;
+   display: inline-block;
+   vertical-align: -3px;
+   margin-right: 10px;
+}
+.mcc_automated_form_1 button:disabled {
+   cursor: not-allowed;
+   opacity: 0.5;
+}
